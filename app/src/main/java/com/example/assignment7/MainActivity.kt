@@ -21,11 +21,10 @@ class MainActivity : AppCompatActivity() {
 
         nav_view.setOnItemSelectedListener {
             when(it.itemId){
-                R.id.homeFragment->setCurrentFragment(home)
-                R.id.aboutMeFragment->setCurrentFragment(about)
-                R.id.workFragment->setCurrentFragment(work)
-                R.id.contactFragment->setCurrentFragment(contact)
-
+                R.id.homeFragment -> setCurrentFragment(home)
+                R.id.aboutMeFragment -> setCurrentFragment(about)
+                R.id.workFragment -> setCurrentFragment(work)
+                R.id.contactFragment -> setCurrentFragment(contact)
             }
             true
         }
@@ -35,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setCurrentFragment(fragment: Fragment) =
         supportFragmentManager.beginTransaction().apply {
-            replace(R.id.homeFragment, fragment)
+            replace(R.id.nav_fragment, fragment)
             commit()
         }
 }

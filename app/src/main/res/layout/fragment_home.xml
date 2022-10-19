@@ -17,7 +17,6 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/bg" />
@@ -57,8 +56,8 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginTop="10dp"
+            android:layout_height="500dp"
+            android:layout_marginTop="15dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/position">
@@ -68,18 +67,128 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView2"
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-medium"
-                    android:text="About Myself" />
+                    android:layout_margin="10dp">
 
-                <TextView
-                    android:id="@+id/textView3"
+                    <TextView
+                        android:id="@+id/abtMeTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="3dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="About Myself"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toTopOf="@+id/abtMeDesc"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/abtMeDesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Highly experienced, solutions-oriented professional with 10+ years of remarkable background in overseeing all aspects of the Software Development Life Cycle, from extensive analysis and design through execution and maintenance. Proficient in utilizing a wide variety of programs and tools to provide high-quality and cost-effective applications/systems to boost organizational efficiency and productivity. Possess unmatched coding and testing skills to deliver client/business-specific programs"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/abtMeTitle" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write; I like ..." />
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/abtMeDesc5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Award for being a Competent Application Maintenance Support Specialist."
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/abtMeDesc3" />
+
+                    <TextView
+                        android:id="@+id/achievementTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="My Acheivement"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toTopOf="@+id/abtMeDesc2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/abtMeDesc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="08/2018"
+                        app:layout_constraintBottom_toTopOf="@+id/abtMeDesc3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/achievementTitle" />
+
+                    <TextView
+                        android:id="@+id/abtMeDesc3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ClearWater Cloud Systems and Technologies"
+                        app:layout_constraintBottom_toTopOf="@+id/abtMeDesc5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/abtMeDesc2" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/abtMeDesc9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ClearWater Cloud Systems and Technologies"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/abtMeDesc10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="09/2017"
+                        app:layout_constraintBottom_toTopOf="@+id/abtMeDesc9"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/abtMeDesc12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Most Innovative Java Developer of the Year October 2017"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/abtMeDesc9" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
             </LinearLayout>
         </ScrollView>
 
