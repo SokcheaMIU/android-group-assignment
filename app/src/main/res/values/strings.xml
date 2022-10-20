@@ -4,6 +4,6 @@
     <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
     <string name="title_home">Home</string>
     <string name="title_about_me">About Me</string>
-    <string name="title_work_experience">Work Experience</string>
+    <string name="title_work_experience">Experiences</string>
     <string name="title_contact">Contact</string>
 </resources>

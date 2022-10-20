@@ -42,7 +42,7 @@
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:text="Selena Gomez"
-            android:textSize="16sp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/profileImageView" />
@@ -105,6 +105,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
+                            android:fontFamily="sans-serif-condensed-medium"
                             android:text="Languages: " />
 
                         <TextView
@@ -131,6 +132,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
+                            android:fontFamily="sans-serif-condensed-medium"
                             android:text="Databases: " />
 
                         <TextView
@@ -156,6 +158,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
+                            android:fontFamily="sans-serif-condensed-medium"
                             android:text="Frameworks: " />
 
                         <TextView
@@ -182,6 +185,7 @@
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
+                            android:fontFamily="sans-serif-condensed-medium"
                             android:text="API's:" />
 
                         <TextView
@@ -196,7 +200,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <TextView
-                    android:id="@+id/achievementTitle"
+                    android:id="@+id/contactTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -232,7 +236,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
                             android:layout_weight="1"
-                            android:text="Utilize Java, Enterprise Java Bean, Java E, and Apache Struts Web applications to develop fully automated client management systems for the efficient maintenance of client accounts."
+                            android:text="‣ Utilize Java, Enterprise Java Bean, Java E, and Apache Struts Web applications to develop fully automated client management systems for the efficient maintenance of client accounts."
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/abtMeDesc5" />
@@ -246,7 +250,7 @@
                             android:layout_marginRight="10dp"
                             android:layout_marginBottom="10dp"
                             android:layout_weight="1"
-                            android:text="Enforce an innovative approach to improve the client's web reporting system, which effectively reduced the financial tracking analysis time by 50%."
+                            android:text="‣ Enforce an innovative approach to improve the client's web reporting system, which effectively reduced the financial tracking analysis time by 50%."
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/abtMeDesc5" />
@@ -258,7 +262,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
                             android:layout_weight="1"
-                            android:text="Supervise and lead a team of 10+ junior java developers to ascertain the successful completion of the 13 key projects of the company within budget and schedule."
+                            android:text="‣ Supervise and lead a team of 10+ junior java developers to ascertain the successful completion of the 13 key projects of the company within budget and schedule."
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/abtMeDesc5" />
@@ -284,7 +288,9 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
+                        android:fontFamily="sans-serif-medium"
                         android:text="Java Developer"
+                        android:textSize="16sp"
                         app:layout_constraintBottom_toTopOf="@+id/abtMeDesc5"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -297,6 +303,8 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:text="04/2015 - Present"
+                        android:textSize="12sp"
+                        android:textStyle="italic"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/abtMeDesc5" />
@@ -316,7 +324,9 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
+                        android:fontFamily="sans-serif-medium"
                         android:text="Back-End Java Developer"
+                        android:textSize="16sp"
                         app:layout_constraintBottom_toTopOf="@+id/abtMeDesc9"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -341,6 +351,8 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:text="02/2011-03/2015"
+                        android:textSize="12sp"
+                        android:textStyle="italic"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/abtMeDesc9" />
@@ -364,7 +376,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
                             android:layout_weight="1"
-                            android:text="Took part in the scheduled development meeting to recommend relevant system modifications and project improvements."
+                            android:text="‣ Took part in the scheduled development meeting to recommend relevant system modifications and project improvements."
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/abtMeDesc5" />
@@ -377,7 +389,7 @@
                             android:layout_marginRight="10dp"
                             android:layout_marginBottom="10dp"
                             android:layout_weight="1"
-                            android:text="Spearheaded the software product definition, requirements, analysis, and implementation for the new project designs."
+                            android:text="‣ Spearheaded the software product definition, requirements, analysis, and implementation for the new project designs."
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/abtMeDesc5" />
@@ -388,7 +400,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
                             android:layout_weight="1"
-                            android:text="Innovated the phone devices by deploying a system that integrated navigation, text messaging, and music playback via an easy- to-use and low cognitive load interface that is controlled by voice commands."
+                            android:text="‣ Innovated the phone devices by deploying a system that integrated navigation, text messaging, and music playback via an easy- to-use and low cognitive load interface that is controlled by voice commands."
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/abtMeDesc5" />
@@ -398,7 +410,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <TextView
-                    android:id="@+id/blogTitle"
+                    android:id="@+id/addressTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -426,7 +438,9 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
+                        android:fontFamily="sans-serif-medium"
                         android:text="Human Safety Mobile Application"
+                        android:textSize="16sp"
                         app:layout_constraintBottom_toTopOf="@+id/blogContent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -455,6 +469,8 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginBottom="20dp"
                         android:text="2015 - Present"
+                        android:textSize="12sp"
+                        android:textStyle="italic"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"

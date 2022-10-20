@@ -102,7 +102,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <TextView
-                    android:id="@+id/achievementTitle"
+                    android:id="@+id/contactTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -110,7 +110,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="My Acheivement"
+                    android:text="My Acheivements"
                     android:textSize="20sp" />
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -125,7 +125,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:text="ClearWater Cloud Systems and Technologies"
+                        android:text="Award for being a Competent Application Maintenance Support Specialist."
                         app:layout_constraintBottom_toTopOf="@+id/abtMeDesc3"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -138,7 +138,9 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
-                        android:text="08/2018"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="ClearWater Cloud Systems and Technologies"
+                        android:textSize="16sp"
                         app:layout_constraintBottom_toTopOf="@+id/abtMeDesc5"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -151,7 +153,9 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Award for being a Competent Application Maintenance Support Specialist."
+                        android:text="08/2018"
+                        android:textSize="12sp"
+                        android:textStyle="italic"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -171,7 +175,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:text="ClearWater Cloud Systems and Technologies"
+                        android:text="Most Innovative Java Developer of the Year October 2017"
                         app:layout_constraintBottom_toTopOf="@+id/abtMeDesc12"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -184,7 +188,9 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
-                        android:text="09/2017"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="ClearWater Cloud Systems and Technologies"
+                        android:textSize="16sp"
                         app:layout_constraintBottom_toTopOf="@+id/abtMeDesc9"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -197,7 +203,9 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Most Innovative Java Developer of the Year October 2017"
+                        android:text="09/2017"
+                        android:textSize="12sp"
+                        android:textStyle="italic"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -206,7 +214,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <TextView
-                    android:id="@+id/blogTitle"
+                    android:id="@+id/addressTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -227,47 +235,53 @@
                     android:layout_margin="10dp"
                     android:background="@drawable/corner_view">
 
-                    <TextView
-                        android:id="@+id/blogTopic"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:text="The arrival of Java 19"
-                        app:layout_constraintBottom_toTopOf="@+id/blogContent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/blogContent"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:clickable="true"
-                        android:ellipsize="end"
-                        android:maxLines="2"
-                        android:text="Oracle is proud to announce the general availability of JDK 19. This release is the tenth Feature Release delivered on time through the six-month release cadence. This level of predictability allows developers to easily manage their adoption of innovation thanks to a steady stream of expected changes."
-                        app:layout_constraintBottom_toTopOf="@+id/blogDate"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/blogTopic" />
-
-                    <TextView
-                        android:id="@+id/blogDate"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginBottom="20dp"
-                        android:text="September 20, 2022 | 10 minute read"
+                        android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/blogContent" />
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <Button
+                            android:id="@+id/button"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="-15dp"
+                            android:fontFamily="serif"
+                            android:gravity="start|center_vertical"
+                            android:text="The arrival of Java 19"
+                            android:textAllCaps="false"
+                            android:textColor="#5D5D5D"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:fontFamily="serif"
+                            android:gravity="start|center_vertical"
+                            android:maxLines="4"
+                            android:text="Oracle is proud to announce the general availability of JDK 19. This release is the tenth Feature Release delivered on time through the six-month release cadence. This level of predictability allows developers to easily manage their adoption of innovation thanks to a steady stream of expected changes."
+                            android:textAllCaps="false"
+                            android:textColor="#5D5D5D"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/blogDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="September 20, 2022 | 10 minute read"
+                            android:textSize="12sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
