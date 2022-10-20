@@ -245,7 +245,7 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                         <Button
-                            android:id="@+id/button"
+                            android:id="@+id/blogTitle"
                             style="@style/Widget.AppCompat.Button.Borderless"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -258,7 +258,7 @@
                             android:textSize="16sp" />
 
                         <Button
-                            android:id="@+id/button2"
+                            android:id="@+id/blogContent"
                             style="@style/Widget.AppCompat.Button.Borderless"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"

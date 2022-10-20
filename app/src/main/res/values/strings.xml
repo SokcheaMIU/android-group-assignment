@@ -6,4 +6,6 @@
     <string name="title_about_me">About Me</string>
     <string name="title_work_experience">Experiences</string>
     <string name="title_contact">Contact</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
