@@ -41,6 +41,7 @@ class HomeFragment : Fragment() {
 
     private fun clickBlog(view: View) {
         val intent = Intent( activity, WebViewActivity::class.java)
+        intent.putExtra("title", "Blogs")
         intent.putExtra("url", "https://blogs.oracle.com/java/post/the-arrival-of-java-19")
         startActivity(intent)
     }
